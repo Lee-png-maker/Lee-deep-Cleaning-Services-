@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,6 +9,10 @@
 <meta name="description" content="Lee Deep Cleaning Services provides professional deep cleaning for homes, offices, kitchens, bathrooms, carpets, couches, mattresses, windows and move-in or move-out cleaning.">
 
 <meta name="theme-color" content="#0a66c2">
+
+<!-- WhatsApp Icon -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
 <style>
 *{
@@ -539,9 +542,14 @@ footer strong{
   place-items:center;
   background:#25D366;
   color:#fff;
-  font-size:27px;
+  font-size:28px;
   box-shadow:0 8px 25px rgba(0,0,0,.25);
   z-index:2000;
+  transition:.2s;
+}
+
+.whatsapp:hover{
+  transform:scale(1.08);
 }
 
 /* MOBILE */
@@ -638,12 +646,17 @@ footer strong{
 
 <script>
 const BUSINESS_NAME = "Lee Deep Cleaning Services";
-const WHATSAPP_LINK = "https://wa.me/message/27688585355";
-const WHATSAPP_NUMBER = "068 858 5355";
-const YOCO_LINK = "https://pay.yoco.com/lee-mobile-servises-and-constraction";
 
-/* Direct WhatsApp number for pre-filled booking messages */
-const WHATSAPP_DIRECT = "https://wa.me/27688585355";
+/* Correct WhatsApp number */
+const WHATSAPP_NUMBER = "068 868 5355";
+
+/* Correct international WhatsApp number */
+const WHATSAPP_DIRECT = "https://wa.me/27688685355";
+
+/* Direct WhatsApp link */
+const WHATSAPP_LINK = "https://wa.me/27688685355";
+
+const YOCO_LINK = "https://pay.yoco.com/lee-mobile-servises-and-constraction";
 </script>
 
 <!-- HEADER -->
@@ -692,8 +705,13 @@ const WHATSAPP_DIRECT = "https://wa.me/27688585355";
         Get a Cleaning Quote
       </a>
 
-      <a id="heroWhatsApp" href="#" class="btn btn-light">
-        💬 WhatsApp Us
+      <a id="heroWhatsApp"
+         href="https://wa.me/27688685355"
+         class="btn btn-light"
+         target="_blank"
+         rel="noopener">
+        <i class="fab fa-whatsapp"></i>
+        WhatsApp Us
       </a>
 
     </div>
@@ -1050,7 +1068,7 @@ const WHATSAPP_DIRECT = "https://wa.me/27688585355";
             <input
               type="tel"
               id="customerPhone"
-              placeholder="e.g. 068 123 4567"
+              placeholder="e.g. 068 868 5355"
               required
             >
           </div>
@@ -1116,7 +1134,8 @@ const WHATSAPP_DIRECT = "https://wa.me/27688585355";
         </div>
 
         <button type="submit" class="btn submit">
-          🧹 Request Quote on WhatsApp
+          <i class="fab fa-whatsapp"></i>
+          Request Quote on WhatsApp
         </button>
 
       </form>
@@ -1181,22 +1200,42 @@ const WHATSAPP_DIRECT = "https://wa.me/27688585355";
     <div class="contact-grid">
 
       <div class="contact-card">
-        <strong>📱 Phone / WhatsApp</strong>
-        <a id="phoneLink" href="#">
-          068 858 5355
+        <strong>
+          <i class="fas fa-phone"></i>
+          Phone / WhatsApp
+        </strong>
+
+        <a id="phoneLink" href="tel:+27688685355">
+          068 868 5355
         </a>
       </div>
 
       <div class="contact-card">
-        <strong>💬 WhatsApp</strong>
-        <a id="contactWhatsApp" href="#" target="_blank">
+        <strong>
+          <i class="fab fa-whatsapp"></i>
+          WhatsApp
+        </strong>
+
+        <a
+          id="contactWhatsApp"
+          href="https://wa.me/27688685355"
+          target="_blank"
+          rel="noopener">
           Chat With Lee Deep Cleaning
         </a>
       </div>
 
       <div class="contact-card">
-        <strong>💳 Payment</strong>
-        <a id="contactYoco" href="#" target="_blank">
+        <strong>
+          <i class="fas fa-credit-card"></i>
+          Payment
+        </strong>
+
+        <a
+          id="contactYoco"
+          href="#"
+          target="_blank"
+          rel="noopener">
           Pay With Yoco
         </a>
       </div>
@@ -1218,7 +1257,8 @@ const WHATSAPP_DIRECT = "https://wa.me/27688585355";
 
   <br><br>
 
-  📱 068 858 5355
+  <i class="fab fa-whatsapp"></i>
+  068 868 5355
 
   <br><br>
 
@@ -1231,11 +1271,13 @@ const WHATSAPP_DIRECT = "https://wa.me/27688585355";
 <a
   id="floatingWhatsApp"
   class="whatsapp"
-  href="#"
+  href="https://wa.me/27688685355"
   target="_blank"
-  aria-label="WhatsApp"
->
-  💬
+  rel="noopener"
+  aria-label="WhatsApp">
+
+  <i class="fab fa-whatsapp"></i>
+
 </a>
 
 <script>
@@ -1269,7 +1311,7 @@ document.getElementById("contactYoco").href =
   YOCO_LINK;
 
 document.getElementById("phoneLink").href =
-  "tel:+27688585355";
+  "tel:+27688685355";
 
 document.getElementById("year").textContent =
   new Date().getFullYear();
