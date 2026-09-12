@@ -1,1 +1,1358 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Lee Deep Cleaning Services | Professional Cleaning</title>
+
+<meta name="description" content="Lee Deep Cleaning Services provides professional deep cleaning for homes, offices, kitchens, bathrooms, carpets, couches, mattresses, windows and move-in or move-out cleaning.">
+
+<meta name="theme-color" content="#0a66c2">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  background:#f5f9fd;
+  color:#152333;
+  line-height:1.6;
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+header{
+  position:sticky;
+  top:0;
+  z-index:1000;
+  background:#fff;
+  box-shadow:0 2px 15px rgba(0,0,0,.08);
+}
+
+.nav{
+  max-width:1150px;
+  margin:auto;
+  min-height:72px;
+  padding:12px 20px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.logo{
+  font-size:22px;
+  font-weight:900;
+  color:#0a66c2;
+}
+
+.logo span{
+  color:#152333;
+}
+
+nav{
+  display:flex;
+  gap:22px;
+  align-items:center;
+}
+
+nav a{
+  font-size:14px;
+  font-weight:700;
+}
+
+nav a:hover{
+  color:#0a66c2;
+}
+
+.menu-btn{
+  display:none;
+  border:0;
+  background:#0a66c2;
+  color:#fff;
+  border-radius:8px;
+  padding:9px 13px;
+  font-size:22px;
+}
+
+/* HERO */
+
+.hero{
+  min-height:610px;
+  display:flex;
+  align-items:center;
+  padding:70px 20px;
+  color:#fff;
+  background:
+    linear-gradient(rgba(4,43,82,.82),rgba(4,43,82,.82)),
+    linear-gradient(135deg,#0a66c2,#063c72);
+}
+
+.hero-inner{
+  max-width:1150px;
+  width:100%;
+  margin:auto;
+}
+
+.badge{
+  display:inline-block;
+  padding:8px 15px;
+  border-radius:30px;
+  background:rgba(255,255,255,.13);
+  border:1px solid rgba(255,255,255,.22);
+  font-weight:700;
+  margin-bottom:20px;
+}
+
+.hero h1{
+  max-width:800px;
+  font-size:clamp(42px,7vw,76px);
+  line-height:1.03;
+  margin-bottom:22px;
+}
+
+.hero h1 span{
+  color:#71c7ff;
+}
+
+.hero p{
+  max-width:690px;
+  font-size:19px;
+  color:#e4f2ff;
+  margin-bottom:30px;
+}
+
+.buttons{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+}
+
+.btn{
+  display:inline-block;
+  padding:14px 22px;
+  border-radius:9px;
+  font-weight:800;
+  border:0;
+  cursor:pointer;
+  transition:.2s;
+}
+
+.btn:hover{
+  transform:translateY(-2px);
+}
+
+.btn-white{
+  background:#fff;
+  color:#0a66c2;
+}
+
+.btn-blue{
+  background:#0a66c2;
+  color:#fff;
+}
+
+.btn-light{
+  background:#dff1ff;
+  color:#075394;
+}
+
+/* GENERAL */
+
+section{
+  padding:75px 20px;
+}
+
+.container{
+  max-width:1150px;
+  margin:auto;
+}
+
+.heading{
+  max-width:700px;
+  margin:0 auto 45px;
+  text-align:center;
+}
+
+.heading small{
+  color:#0a66c2;
+  font-weight:900;
+  letter-spacing:1px;
+  text-transform:uppercase;
+}
+
+.heading h2{
+  font-size:clamp(30px,5vw,45px);
+  margin:8px 0 12px;
+}
+
+.heading p{
+  color:#667585;
+}
+
+/* SERVICES */
+
+.services{
+  background:#fff;
+}
+
+.service-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+
+.card{
+  background:#f7fbff;
+  border:1px solid #dceaf5;
+  border-radius:16px;
+  padding:27px;
+  transition:.2s;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+  box-shadow:0 12px 30px rgba(0,0,0,.08);
+}
+
+.icon{
+  width:55px;
+  height:55px;
+  display:grid;
+  place-items:center;
+  border-radius:14px;
+  background:#e3f2ff;
+  font-size:27px;
+  margin-bottom:16px;
+}
+
+.card h3{
+  color:#075aa8;
+  margin-bottom:8px;
+}
+
+.card p{
+  color:#667585;
+  font-size:14px;
+  margin-bottom:15px;
+}
+
+.starting{
+  color:#0a66c2;
+  font-weight:900;
+}
+
+/* WHY */
+
+.why{
+  background:#edf6fd;
+}
+
+.why-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:18px;
+}
+
+.why-card{
+  background:#fff;
+  border-radius:15px;
+  padding:25px;
+  text-align:center;
+}
+
+.why-card .big{
+  font-size:34px;
+  margin-bottom:8px;
+}
+
+.why-card h3{
+  color:#075aa8;
+  margin-bottom:6px;
+}
+
+.why-card p{
+  color:#667585;
+  font-size:14px;
+}
+
+/* PRICES */
+
+.prices{
+  background:#fff;
+}
+
+.price-list{
+  max-width:850px;
+  margin:auto;
+  display:grid;
+  gap:10px;
+}
+
+.price-row{
+  display:flex;
+  justify-content:space-between;
+  gap:15px;
+  padding:17px 20px;
+  background:#f7fbff;
+  border:1px solid #dfebf4;
+  border-radius:10px;
+}
+
+.price-row span:last-child{
+  color:#0a66c2;
+  font-weight:900;
+  white-space:nowrap;
+}
+
+/* ABOUT */
+
+.about{
+  background:#f5f9fd;
+}
+
+.about-grid{
+  display:grid;
+  grid-template-columns:1.1fr .9fr;
+  gap:40px;
+  align-items:center;
+}
+
+.about h2{
+  font-size:42px;
+  margin-bottom:18px;
+}
+
+.about p{
+  color:#667585;
+  margin-bottom:15px;
+}
+
+.about-box{
+  background:#075aa8;
+  color:#fff;
+  padding:35px;
+  border-radius:20px;
+}
+
+.about-box h3{
+  font-size:27px;
+  margin-bottom:15px;
+}
+
+.about-box ul{
+  list-style:none;
+}
+
+.about-box li{
+  padding:10px 0;
+  border-bottom:1px solid rgba(255,255,255,.15);
+}
+
+/* BOOKING */
+
+.booking{
+  background:#fff;
+}
+
+.booking-box{
+  max-width:880px;
+  margin:auto;
+  background:#f5f9fd;
+  border:1px solid #dceaf5;
+  padding:30px;
+  border-radius:20px;
+}
+
+.form-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:15px;
+}
+
+.field{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+}
+
+.field.full{
+  grid-column:1/-1;
+}
+
+label{
+  font-size:13px;
+  font-weight:800;
+}
+
+input,
+select,
+textarea{
+  width:100%;
+  padding:13px;
+  border:1px solid #cbd9e5;
+  border-radius:8px;
+  background:#fff;
+  font:inherit;
+  outline:none;
+}
+
+textarea{
+  min-height:115px;
+  resize:vertical;
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+  border-color:#0a66c2;
+}
+
+.submit{
+  width:100%;
+  margin-top:18px;
+  background:#0a66c2;
+  color:#fff;
+  font-size:16px;
+}
+
+/* CHECKLIST */
+
+.checklist{
+  background:#edf6fd;
+}
+
+.check-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:15px;
+}
+
+.check{
+  background:#fff;
+  padding:20px;
+  border-radius:12px;
+  font-weight:700;
+}
+
+.check span{
+  color:#0a66c2;
+  margin-right:8px;
+}
+
+/* PAYMENT */
+
+.payment{
+  background:#dff1ff;
+  text-align:center;
+}
+
+.payment-box{
+  max-width:750px;
+  margin:auto;
+}
+
+.payment h2{
+  font-size:35px;
+  margin-bottom:12px;
+}
+
+.payment p{
+  color:#596c7c;
+  margin-bottom:22px;
+}
+
+/* CONTACT */
+
+.contact{
+  background:#062d51;
+  color:#fff;
+}
+
+.contact .heading h2{
+  color:#fff;
+}
+
+.contact .heading p{
+  color:#c7d9e8;
+}
+
+.contact-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+}
+
+.contact-card{
+  padding:25px;
+  background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.12);
+  border-radius:15px;
+}
+
+.contact-card strong{
+  display:block;
+  color:#71c7ff;
+  margin-bottom:8px;
+}
+
+.contact-card a{
+  word-break:break-word;
+}
+
+/* FOOTER */
+
+footer{
+  background:#041b30;
+  color:#aebdcc;
+  text-align:center;
+  padding:25px 20px;
+  font-size:13px;
+}
+
+footer strong{
+  color:#fff;
+}
+
+/* WHATSAPP */
+
+.whatsapp{
+  position:fixed;
+  right:18px;
+  bottom:18px;
+  width:58px;
+  height:58px;
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  background:#25D366;
+  color:#fff;
+  font-size:27px;
+  box-shadow:0 8px 25px rgba(0,0,0,.25);
+  z-index:2000;
+}
+
+/* MOBILE */
+
+@media(max-width:850px){
+
+  nav{
+    display:none;
+    position:absolute;
+    top:72px;
+    left:0;
+    width:100%;
+    background:#fff;
+    padding:16px 20px;
+    flex-direction:column;
+    align-items:flex-start;
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+  }
+
+  nav.show{
+    display:flex;
+  }
+
+  .menu-btn{
+    display:block;
+  }
+
+  .service-grid{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .why-grid{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .check-grid{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .about-grid{
+    grid-template-columns:1fr;
+  }
+
+  .contact-grid{
+    grid-template-columns:1fr;
+  }
+}
+
+@media(max-width:560px){
+
+  section{
+    padding:55px 15px;
+  }
+
+  .hero{
+    min-height:570px;
+  }
+
+  .hero h1{
+    font-size:46px;
+  }
+
+  .hero p{
+    font-size:16px;
+  }
+
+  .service-grid,
+  .why-grid,
+  .check-grid,
+  .form-grid{
+    grid-template-columns:1fr;
+  }
+
+  .field.full{
+    grid-column:auto;
+  }
+
+  .booking-box{
+    padding:20px;
+  }
+
+  .about h2{
+    font-size:34px;
+  }
+
+  .price-row{
+    font-size:14px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<script>
+const BUSINESS_NAME = "Lee Deep Cleaning Services";
+const WHATSAPP_LINK = "https://wa.me/message/27688585355";
+const WHATSAPP_NUMBER = "068 858 5355";
+const YOCO_LINK = "https://pay.yoco.com/lee-mobile-servises-and-constraction";
+
+/* Direct WhatsApp number for pre-filled booking messages */
+const WHATSAPP_DIRECT = "https://wa.me/27688585355";
+</script>
+
+<!-- HEADER -->
+<header>
+  <div class="nav">
+
+    <a href="#home" class="logo">
+      Lee <span>Deep Cleaning</span>
+    </a>
+
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+    <nav id="mainNav">
+      <a href="#home" onclick="closeMenu()">Home</a>
+      <a href="#services" onclick="closeMenu()">Services</a>
+      <a href="#prices" onclick="closeMenu()">Prices</a>
+      <a href="#booking" onclick="closeMenu()">Book</a>
+      <a href="#about" onclick="closeMenu()">About</a>
+      <a href="#contact" onclick="closeMenu()">Contact</a>
+    </nav>
+
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-inner">
+
+    <div class="badge">
+      ✨ Professional Deep Cleaning Services
+    </div>
+
+    <h1>
+      A Cleaner Space.
+      <span>A Better Feeling.</span>
+    </h1>
+
+    <p>
+      Professional deep cleaning for homes, offices, apartments and
+      properties. We help make your space fresh, clean and comfortable.
+    </p>
+
+    <div class="buttons">
+
+      <a href="#booking" class="btn btn-white">
+        Get a Cleaning Quote
+      </a>
+
+      <a id="heroWhatsApp" href="#" class="btn btn-light">
+        💬 WhatsApp Us
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="container">
+
+    <div class="heading">
+      <small>Our Services</small>
+      <h2>Professional Cleaning For Every Space</h2>
+      <p>
+        Choose the cleaning service you need or request a customised quote
+        for your property.
+      </p>
+    </div>
+
+    <div class="service-grid">
+
+      <div class="card">
+        <div class="icon">🏠</div>
+        <h3>Deep House Cleaning</h3>
+        <p>
+          Detailed cleaning for bedrooms, living areas, kitchens and
+          bathrooms.
+        </p>
+        <div class="starting">From R350</div>
+      </div>
+
+      <div class="card">
+        <div class="icon">🛋️</div>
+        <h3>Couch Cleaning</h3>
+        <p>
+          Deep cleaning to refresh sofas, couches and upholstered furniture.
+        </p>
+        <div class="starting">From R350</div>
+      </div>
+
+      <div class="card">
+        <div class="icon">🛏️</div>
+        <h3>Mattress Cleaning</h3>
+        <p>
+          Help remove dirt, dust and unwanted odours from mattresses.
+        </p>
+        <div class="starting">From R300</div>
+      </div>
+
+      <div class="card">
+        <div class="icon">🪟</div>
+        <h3>Window Cleaning</h3>
+        <p>
+          Interior and exterior window cleaning for a clearer, brighter
+          property.
+        </p>
+        <div class="starting">Quote Required</div>
+      </div>
+
+      <div class="card">
+        <div class="icon">🏢</div>
+        <h3>Office Cleaning</h3>
+        <p>
+          Cleaning services for offices, workspaces and commercial properties.
+        </p>
+        <div class="starting">From R450</div>
+      </div>
+
+      <div class="card">
+        <div class="icon">🍳</div>
+        <h3>Kitchen Cleaning</h3>
+        <p>
+          Detailed cleaning of kitchen surfaces, cupboards and appliances.
+        </p>
+        <div class="starting">Quote Required</div>
+      </div>
+
+      <div class="card">
+        <div class="icon">🚿</div>
+        <h3>Bathroom Cleaning</h3>
+        <p>
+          Deep cleaning of showers, baths, toilets, tiles and bathroom
+          surfaces.
+        </p>
+        <div class="starting">Quote Required</div>
+      </div>
+
+      <div class="card">
+        <div class="icon">🚚</div>
+        <h3>Move-In / Move-Out</h3>
+        <p>
+          Deep cleaning before moving into a property or after moving out.
+        </p>
+        <div class="starting">Quote Required</div>
+      </div>
+
+      <div class="card">
+        <div class="icon">🏗️</div>
+        <h3>Post-Construction Cleaning</h3>
+        <p>
+          Cleaning after renovations, construction or property improvement
+          work.
+        </p>
+        <div class="starting">Quote Required</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section class="why">
+  <div class="container">
+
+    <div class="heading">
+      <small>Why Lee Deep Cleaning</small>
+      <h2>Cleaning Made Simple</h2>
+      <p>
+        Convenient cleaning services designed around your property.
+      </p>
+    </div>
+
+    <div class="why-grid">
+
+      <div class="why-card">
+        <div class="big">✨</div>
+        <h3>Detailed</h3>
+        <p>We focus on the areas that need attention.</p>
+      </div>
+
+      <div class="why-card">
+        <div class="big">🏠</div>
+        <h3>Convenient</h3>
+        <p>Cleaning services brought to your property.</p>
+      </div>
+
+      <div class="why-card">
+        <div class="big">📱</div>
+        <h3>Easy Booking</h3>
+        <p>Request your cleaning service through WhatsApp.</p>
+      </div>
+
+      <div class="why-card">
+        <div class="big">💰</div>
+        <h3>Clear Quotes</h3>
+        <p>Receive a quotation based on the work required.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PRICES -->
+<section class="prices" id="prices">
+  <div class="container">
+
+    <div class="heading">
+      <small>Starting Prices</small>
+      <h2>Cleaning Price Guide</h2>
+      <p>
+        Prices can change depending on property size, condition and service
+        requirements.
+      </p>
+    </div>
+
+    <div class="price-list">
+
+      <div class="price-row">
+        <span>Ironing</span>
+        <span>From R80</span>
+      </div>
+
+      <div class="price-row">
+        <span>Deep House Cleaning</span>
+        <span>From R350</span>
+      </div>
+
+      <div class="price-row">
+        <span>Couch Cleaning</span>
+        <span>From R350</span>
+      </div>
+
+      <div class="price-row">
+        <span>Mattress Cleaning</span>
+        <span>From R300</span>
+      </div>
+
+      <div class="price-row">
+        <span>Office Cleaning</span>
+        <span>From R450</span>
+      </div>
+
+      <div class="price-row">
+        <span>Window Cleaning</span>
+        <span>Quote Required</span>
+      </div>
+
+      <div class="price-row">
+        <span>Move-In / Move-Out Cleaning</span>
+        <span>Quote Required</span>
+      </div>
+
+      <div class="price-row">
+        <span>Post-Construction Cleaning</span>
+        <span>Quote Required</span>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="container">
+
+    <div class="about-grid">
+
+      <div>
+
+        <small style="color:#0a66c2;font-weight:900;">
+          ABOUT LEE DEEP CLEANING
+        </small>
+
+        <h2>
+          Fresh, clean spaces without the hassle.
+        </h2>
+
+        <p>
+          Lee Deep Cleaning Services provides convenient cleaning solutions
+          for homes, offices, apartments and other properties.
+        </p>
+
+        <p>
+          Whether you need a once-off deep clean, a move-in or move-out
+          clean, furniture cleaning or regular cleaning, contact us to discuss
+          your requirements.
+        </p>
+
+        <a href="#booking" class="btn btn-blue">
+          Request a Quote
+        </a>
+
+      </div>
+
+      <div class="about-box">
+
+        <h3>Our Cleaning Process</h3>
+
+        <ul>
+          <li>✓ Tell us what needs cleaning</li>
+          <li>✓ Provide your property details</li>
+          <li>✓ Receive a quotation</li>
+          <li>✓ Confirm your booking</li>
+          <li>✓ We clean your space</li>
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- CLEANING CHECKLIST -->
+<section class="checklist">
+
+  <div class="container">
+
+    <div class="heading">
+      <small>Deep Cleaning</small>
+      <h2>What Can We Clean?</h2>
+      <p>
+        Ask us about cleaning requirements for your property.
+      </p>
+    </div>
+
+    <div class="check-grid">
+
+      <div class="check">
+        <span>✓</span> Floors
+      </div>
+
+      <div class="check">
+        <span>✓</span> Kitchens
+      </div>
+
+      <div class="check">
+        <span>✓</span> Bathrooms
+      </div>
+
+      <div class="check">
+        <span>✓</span> Bedrooms
+      </div>
+
+      <div class="check">
+        <span>✓</span> Living Areas
+      </div>
+
+      <div class="check">
+        <span>✓</span> Windows
+      </div>
+
+      <div class="check">
+        <span>✓</span> Couches
+      </div>
+
+      <div class="check">
+        <span>✓</span> Mattresses
+      </div>
+
+      <div class="check">
+        <span>✓</span> Office Spaces
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- BOOKING -->
+<section class="booking" id="booking">
+
+  <div class="container">
+
+    <div class="heading">
+      <small>Book A Cleaning</small>
+      <h2>Request Your Cleaning Quote</h2>
+      <p>
+        Complete the form and your request will be prepared for WhatsApp.
+      </p>
+    </div>
+
+    <div class="booking-box">
+
+      <form id="cleaningForm">
+
+        <div class="form-grid">
+
+          <div class="field">
+            <label>Your Name</label>
+            <input
+              type="text"
+              id="customerName"
+              placeholder="Enter your name"
+              required
+            >
+          </div>
+
+          <div class="field">
+            <label>Phone Number</label>
+            <input
+              type="tel"
+              id="customerPhone"
+              placeholder="e.g. 068 123 4567"
+              required
+            >
+          </div>
+
+          <div class="field">
+            <label>Property Type</label>
+            <select id="propertyType" required>
+              <option value="">Select property</option>
+              <option>House</option>
+              <option>Apartment</option>
+              <option>Office</option>
+              <option>Business</option>
+              <option>Complex</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label>Cleaning Service</label>
+            <select id="service" required>
+              <option value="">Select service</option>
+              <option>Deep House Cleaning</option>
+              <option>Couch Cleaning</option>
+              <option>Mattress Cleaning</option>
+              <option>Window Cleaning</option>
+              <option>Office Cleaning</option>
+              <option>Kitchen Cleaning</option>
+              <option>Bathroom Cleaning</option>
+              <option>Move-In / Move-Out Cleaning</option>
+              <option>Post-Construction Cleaning</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label>Preferred Date</label>
+            <input type="date" id="date">
+          </div>
+
+          <div class="field">
+            <label>Preferred Time</label>
+            <input type="time" id="time">
+          </div>
+
+          <div class="field full">
+            <label>Property Address / Area</label>
+            <input
+              type="text"
+              id="address"
+              placeholder="Enter your address or area"
+              required
+            >
+          </div>
+
+          <div class="field full">
+            <label>Cleaning Details</label>
+            <textarea
+              id="notes"
+              placeholder="Example: 3-bedroom house, 2 bathrooms, kitchen and lounge..."
+            ></textarea>
+          </div>
+
+        </div>
+
+        <button type="submit" class="btn submit">
+          🧹 Request Quote on WhatsApp
+        </button>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- PAYMENT -->
+<section class="payment">
+
+  <div class="container">
+
+    <div class="payment-box">
+
+      <h2>Pay With Yoco</h2>
+
+      <p>
+        Once your cleaning quotation has been confirmed, you can use our
+        Yoco payment page for payment.
+      </p>
+
+      <a
+        id="yocoButton"
+        href="#"
+        target="_blank"
+        rel="noopener"
+        class="btn btn-blue"
+      >
+        💳 Pay With Yoco
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+
+  <div class="container">
+
+    <div class="heading">
+
+      <small style="color:#71c7ff;">
+        Contact Us
+      </small>
+
+      <h2>
+        Let's Get Your Space Clean
+      </h2>
+
+      <p>
+        Contact Lee Deep Cleaning Services for a quotation or booking.
+      </p>
+
+    </div>
+
+    <div class="contact-grid">
+
+      <div class="contact-card">
+        <strong>📱 Phone / WhatsApp</strong>
+        <a id="phoneLink" href="#">
+          068 858 5355
+        </a>
+      </div>
+
+      <div class="contact-card">
+        <strong>💬 WhatsApp</strong>
+        <a id="contactWhatsApp" href="#" target="_blank">
+          Chat With Lee Deep Cleaning
+        </a>
+      </div>
+
+      <div class="contact-card">
+        <strong>💳 Payment</strong>
+        <a id="contactYoco" href="#" target="_blank">
+          Pay With Yoco
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+
+  <strong>Lee Deep Cleaning Services</strong>
+
+  <br>
+
+  Professional Deep Cleaning Services
+
+  <br><br>
+
+  📱 068 858 5355
+
+  <br><br>
+
+  © <span id="year"></span> Lee Deep Cleaning Services.
+  All rights reserved.
+
+</footer>
+
+<!-- FLOATING WHATSAPP -->
+<a
+  id="floatingWhatsApp"
+  class="whatsapp"
+  href="#"
+  target="_blank"
+  aria-label="WhatsApp"
+>
+  💬
+</a>
+
+<script>
+
+/* MOBILE MENU */
+
+function toggleMenu(){
+  document.getElementById("mainNav").classList.toggle("show");
+}
+
+function closeMenu(){
+  document.getElementById("mainNav").classList.remove("show");
+}
+
+
+/* CONTACT LINKS */
+
+document.getElementById("heroWhatsApp").href =
+  WHATSAPP_DIRECT;
+
+document.getElementById("floatingWhatsApp").href =
+  WHATSAPP_DIRECT;
+
+document.getElementById("contactWhatsApp").href =
+  WHATSAPP_LINK;
+
+document.getElementById("yocoButton").href =
+  YOCO_LINK;
+
+document.getElementById("contactYoco").href =
+  YOCO_LINK;
+
+document.getElementById("phoneLink").href =
+  "tel:+27688585355";
+
+document.getElementById("year").textContent =
+  new Date().getFullYear();
+
+
+/* CLEANING QUOTE FORM */
+
+document.getElementById("cleaningForm").addEventListener(
+  "submit",
+  function(event){
+
+    event.preventDefault();
+
+    const name =
+      document.getElementById("customerName").value.trim();
+
+    const phone =
+      document.getElementById("customerPhone").value.trim();
+
+    const property =
+      document.getElementById("propertyType").value;
+
+    const service =
+      document.getElementById("service").value;
+
+    const date =
+      document.getElementById("date").value ||
+      "Not specified";
+
+    const time =
+      document.getElementById("time").value ||
+      "Not specified";
+
+    const address =
+      document.getElementById("address").value.trim();
+
+    const notes =
+      document.getElementById("notes").value.trim() ||
+      "No additional details provided.";
+
+    const message =
+`🧹 LEE DEEP CLEANING SERVICES
+CLEANING QUOTE REQUEST
+
+👤 Customer:
+${name}
+
+📱 Phone:
+${phone}
+
+🏠 Property:
+${property}
+
+🧹 Service:
+${service}
+
+📅 Preferred Date:
+${date}
+
+⏰ Preferred Time:
+${time}
+
+📍 Address / Area:
+${address}
+
+📝 Cleaning Details:
+${notes}
+
+Please provide me with a quotation.
+
+Thank you.`;
+
+    const url =
+      WHATSAPP_DIRECT +
+      "?text=" +
+      encodeURIComponent(message);
+
+    window.open(url,"_blank");
+
+  }
+);
+
+</script>
+
+</body>
+</html>
